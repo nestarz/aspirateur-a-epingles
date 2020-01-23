@@ -1,0 +1,14 @@
+{
+  "name": "scrape-pinterest-profile",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "esm": "^3.2.25",
+    "puppeteer-core": "^2.0.0"
+  },
+  "scripts": {
+    "start": "node -r esm src/index.js"
+  }
+}
